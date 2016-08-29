@@ -1,0 +1,28 @@
+<metal:macro use-macro="master">
+    <metal:slot fill-slot="title">
+        <title>Welcome to Online Coding Helper</title>
+    </metal:slot>
+    <metal:slot fill-slot="body">
+        <div class="jumbotron">
+            <h1>Welcome!</h1>
+            <p class="lead">
+                Welcome to Online Coding Helper! The one-stop-shop for all programming tools/utilities that will make your life easier.
+            </p>
+            <p><a class="btn btn-lg btn-success" href="/toolbox" role="button">Open Toolbox</a></p>
+        </div>
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Popular Tools</h4>
+                <ul>
+                    <li><a href="/toolbox/json-to-yaml">JSON to YAML</a></li>
+                    <li><a href="/toolbox/minify-css">Minify CSS</a></li>
+                    <li><a href="/toolbox/minify-javascript">Minify Javascript</a></li>
+                    <li><a href="/toolbox/base64-encode">Base64 Encode</li>
+                    <li><a href='/toolbox/website-ip-lookup'>Website IP Lookup</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+            </div>
+        </div>
+    </metal:slot>
+</metal:macro>

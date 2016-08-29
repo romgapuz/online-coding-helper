@@ -1,0 +1,91 @@
+<metal:macro use-macro="master">
+    <metal:slot fill-slot="title">
+        <title>Toolbox - Online Coding Helper</title>
+    </metal:slot>
+    <metal:slot fill-slot="body">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Toolbox</h2>
+                <p>
+                    Below are the list of programmer's tools/utilities:
+                </p>
+                <ul>
+                    <li>Beautify / Minify / Uglify
+                        <ul>
+                            <li><a href='/toolbox/minify-css'>Minify CSS</a></li>
+                            <li><a href='/toolbox/beautify-javascript'>Beautify Javascript</a></li>
+                            <li><a href='/toolbox/minify-javascript'>Minify Javascript</a></li>
+                        </ul>
+                    </li>
+                    <li>Cryptography
+                        <ul>
+                            <li><a href='/toolbox/adler32'>Adler-32</a></li>
+                            <li><a href='/toolbox/crc32'>CRC32</a></li>
+                            <li><a href='/toolbox/md5-hash'>MD5 Hash</a></li>
+                            <li><a href='/toolbox/sha1-hash'>SHA-1 Hash</a></li>
+                            <li><a href='/toolbox/sha224-hash'>SHA-224 Hash</a></li>
+                            <li><a href='/toolbox/sha256-hash'>SHA-256 Hash</a></li>
+                            <li><a href='/toolbox/sha384-hash'>SHA-384 Hash</a></li>
+                            <li><a href='/toolbox/sha512-hash'>SHA-512 Hash</a></li>
+                            <li><a href='/toolbox/parse-x509-certificate'>Parse X.509 Certificate</a></li>
+                        </ul>
+                    </li>
+                    <li>Encode / Decode
+                        <ul>
+                            <li><a href='/toolbox/base64-encode'>Base64 Encode</a></li>
+                            <li><a href='/toolbox/base64-decode'>Base64 Decode</a></li>
+                            <li><a href='/toolbox/url-encode'>URL Encode</a></li>
+                            <li><a href='/toolbox/url-decode'>URL Decode</a></li>
+                        </ul>
+                    </li>
+                    <li>Network
+                        <ul>
+                            <li><a href='/toolbox/website-ip-lookup'>Website IP Lookup</a></li>
+                            <li><a href='/toolbox/website-check'>Website Check</a></li>
+                            <li><a href='/toolbox/ping'>Ping</a></li>
+                            <li><a href='/toolbox/port-check'>Port Check</a></li>
+                        </ul>
+                    </li>
+                    <li>Number
+                        <ul>
+                            <li><a href='/toolbox/binary-to-decimal'>Binary to Decimal</a></li>
+                            <li><a href='/toolbox/binary-to-hexadecimal'>Binary to Hexadecimal</a></li>
+                            <li><a href='/toolbox/binary-to-octal'>Binary to Octal</a></li>
+                            <li><a href='/toolbox/decimal-to-binary'>Decimal to Binary</a></li>
+                            <li><a href='/toolbox/decimal-to-hexadecimal'>Decimal to Hexadecimal</a></li>
+                            <li><a href='/toolbox/decimal-to-octal'>Decimal to Octal</a></li>
+                            <li><a href='/toolbox/hexadecimal-to-binary'>Hexadecimal to Binary</a></li>
+                            <li><a href='/toolbox/hexadecimal-to-decimal'>Hexadecimal to Decimal</a></li>
+                            <li><a href='/toolbox/hexadecimal-to-octal'>Hexadecimal to Octal</a></li>
+                            <li><a href='/toolbox/octal-to-binary'>Octal to Binary</a></li>
+                            <li><a href='/toolbox/octal-to-decimal'>Octal to Decimal</a></li>
+                            <li><a href='/toolbox/octal-to-hexadecimal'>Octal to Hexadecimal</a></li>
+                        </ul>
+                    </li>
+                    <li>Serialization / Deserialization
+                        <ul>
+                            <li><a href='/toolbox/json-to-yaml'>JSON to YAML</a></li>
+                            <li><a href='/toolbox/yaml-to-json'>YAML to JSON</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    Looking for something else? Something's broken?
+                </p>
+                <p>
+                    Even though I try to add as much tools that I know, the list above is incomplete (and may never be complete). If you think of a "tool" needs to be on the list, email me at <a href="mailto:rom@onlinecodinghelper.com">rom@onlinecodinghelper.com</a>.
+                </p>
+                <p>
+                    Appreciate the help. Thanks!
+                </p>
+            </div>
+        </div>
+        <br/>
+        <br/>
+    </metal:slot>
+</metal:macro>

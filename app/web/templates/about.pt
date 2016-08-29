@@ -1,0 +1,28 @@
+<metal:macro use-macro="master">
+    <metal:slot fill-slot="title">
+        <title>About - Online Coding Helper</title>
+    </metal:slot>
+    <metal:slot fill-slot="body">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>About</h2>
+                <p>
+                    Thanks for visiting Online Coding Helper!
+                </p>
+                <p>
+                    This website is to help fellow programmers do their job. The goal is to be the one-stop-shop for all programming tools/utilities to make your life as a programmer easier.
+                </p>
+                <br />
+                <h4>About the Author</h4>
+                <p>
+                    My name is <a href="https://about.me/romgapuz" target="_blank">Rom Gapuz</a> and I'm a fullstack web developer and software architect with wide-range of experienced in various programming languages, platform and technologies.
+                </p>
+                <p>
+                    This website showcase my experience with <a href="https://www.python.org/" target="_blank">Python</a>, from which I code this website and one of my favorite programming languages.
+                </p>
+            </div>
+        </div>
+        <br/>
+        <br/>
+    </metal:slot>
+</metal:macro>

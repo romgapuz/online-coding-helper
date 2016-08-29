@@ -1,0 +1,10 @@
+BTrees/_fsBTree.pyd
+BTrees/_IFBTree.pyd
+BTrees/_IIBTree.pyd
+BTrees/_IOBTree.pyd
+BTrees/_LFBTree.pyd
+BTrees/_LLBTree.pyd
+BTrees/_LOBTree.pyd
+BTrees/_OIBTree.pyd
+BTrees/_OLBTree.pyd
+BTrees/_OOBTree.pyd
